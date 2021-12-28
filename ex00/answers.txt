@@ -1,0 +1,5 @@
+-Output of a list of installed packages : conda list or pip list
+-Output of a list of installed packages and their versions : conda list
+-Show the package metadata of numpy : pip show numpy
+-Srach for PyPI packages whose name or summary contains "tesseract" : conda search "*tesseract*" --channel conda-forge 
+-Freeze the packages and their current versions in requirements.txt file you have to turn in : conda list --export > requirements.txt
